@@ -17,7 +17,7 @@ Copyright (C) 2012  James Roberts
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/seekbar_dialog"
+    android:id="@+id/seekbar_dialog_pc"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical"
@@ -26,14 +26,14 @@ Copyright (C) 2012  James Roberts
     android:paddingRight="5dp">
 
     <EditText
-        android:id="@+id/setting_text"
+        android:id="@+id/setting_text_pc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:textSize="20sp" />
 
     <SeekBar
-        android:id="@+id/seek_bar"
+        android:id="@+id/seek_bar_pc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dip"
